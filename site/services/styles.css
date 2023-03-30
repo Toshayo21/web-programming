@@ -1,0 +1,63 @@
+:root {
+  --font-montserrat: Montserrat;
+  --color-green: #295135;
+  --color-brown: #9f6a38;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--font-montserrat);
+}
+
+.nav-list {
+  display: flex;
+  padding: 1rem 0;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100px;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  white-space: nowrap;
+}
+
+.nav-item:first-child {
+  /*margin-right: auto;*/
+  margin-left: 2rem;
+  margin-top: auto;
+}
+
+.nav-item:nth-child(2) {
+  color: white;
+  letter-spacing: 0.045em;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: -20px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1700px;
+}
+
+nav {
+  background: var(--color-green);
+}
+
+.menu .icons {
+  display: flex;
+  grid-gap :18px;
+  margin-right: 250px;
+}
