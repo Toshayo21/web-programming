@@ -22,7 +22,7 @@ body {
   height: 118.4px;
   color: white;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .menu {
@@ -30,7 +30,6 @@ body {
 }
 
 .menu .logo {
-  margin-left: 48px;
   margin-top: 8px;
 }
 
