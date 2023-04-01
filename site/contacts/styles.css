@@ -13,13 +13,12 @@ body {
   font-size: 16px;
   font-family: var(--font-montserrat);
 }
-
 /* ---------------------top-----------------------*/
 
 .menu .container {
   display: flex;
   margin: 0 auto;
-  max-width: 1920px;
+  /*max-width: 1920px;*/
   background: var(--color-green);
   height: 118.4px;
   color: white;
@@ -87,58 +86,79 @@ a {
 /* ---------------------main-----------------------*/
 
 .our_services {
-  margin-top: 40px;
+  margin-top: 48px;
   font-size: 80px;
   font-style: italic;
   text-align: center;
   white-space: nowrap;
 }
 
-.prices {
-  display: flex;
-  flex-direction: column;
-  grid-gap: 20px;
-  margin-top: 35px;
-
+.main * {
+  color: black;
 }
 
-.prices .price {
-  text-align: center;
+.main .head1, .main .head2, .main .head3 {
   font-size: 24px;
-  width: 600px;
-  margin: auto;
+  white-space: nowrap;
+  margin-bottom: 20px;
 }
 
-.prices .price::after {
-  content: '';
-  background-color: black;
-  height: 0.5px;
-  display: block;
-  margin-top:20px;
+/*.main .content {*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  grid-gap: 200px;*/
+/*}*/
+
+.main .content .soc .soc-networks {
+  display: flex;
+  grid-gap: 18px;
+  justify-content: center;
+  margin-top: -4px;
 }
 
-.lines .lines {
-  border-top: 1px solid black;
-  width: 700px;
-  margin: auto;
-
+.main .con-loc {
+  display: flex;
+  grid-gap : 8px;
 }
 
-.services_button {
+.main .con-phone {
+  margin-left: 2px;
+  display: flex;
+  grid-gap : 12px;
+}
+
+.main .con-mail {
+  margin-left: 2px;
+  display: flex;
+  grid-gap : 12px;
+}
+
+.major {
   display: flex;
   justify-content: center;
-  align-items: center;
-  border-radius: 15px;
-  border: 2px solid #295135;
-  width: 192px;
-  height: 53.6px;
-  color: #295135;
-  margin: 40px auto 50px;
+  grid-gap: 270px;
 }
 
-.services_button .text {
-  letter-spacing: 0.02em;
-  font-size: 17.6px;
+.main .content {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.main .content .contacts {
+  margin-right: 300px;
+  width: 265px;
+}
+
+.main .content .address {
+  margin-right: 300px;
+  width: 235px;
+}
+
+.main .ph-mail {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
 }
 
 /* ---------------------footer-----------------------*/
@@ -156,6 +176,7 @@ a {
 
 .footer {
   background: var(--color-green);
+  margin-top: 70px;
 }
 
 .footer .logo {
@@ -241,3 +262,4 @@ a {
   margin-bottom: 19px;
   margin-top: 3px;
 }
+
