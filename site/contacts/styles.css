@@ -86,7 +86,7 @@ a {
 /* ---------------------main-----------------------*/
 
 .our_services {
-  margin-top: 48px;
+  margin-top: 50px;
   font-size: 80px;
   font-style: italic;
   text-align: center;
@@ -103,11 +103,6 @@ a {
   margin-bottom: 20px;
 }
 
-/*.main .content {*/
-/*  display: flex;*/
-/*  justify-content: center;*/
-/*  grid-gap: 200px;*/
-/*}*/
 
 .main .content .soc .soc-networks {
   display: flex;
