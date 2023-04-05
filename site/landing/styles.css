@@ -2,6 +2,7 @@
   --font-montserrat: Montserrat;
   --color-green: #295135;
   --color-brown: #9f6a38;
+  --color-light: #EFEAE4;
 }
 
 * {
@@ -13,11 +14,12 @@ body {
   font-size: 16px;
   font-family: var(--font-montserrat);
 }
+/* ---------------------top-----------------------*/
 
-.container {
+.menu .container {
   display: flex;
   margin: 0 auto;
-  max-width: 1920px;
+  /*max-width: 1920px;*/
   background: var(--color-green);
   height: 118.4px;
   color: white;
@@ -30,11 +32,10 @@ body {
 }
 
 .menu .logo {
-  margin-left: 48px;
   margin-top: 8px;
 }
 
-.text-logo {
+.menu .text-logo {
   margin-left: 12px;
   color: white;
   letter-spacing: 0.045em;
@@ -81,3 +82,360 @@ a {
   margin-left: 8px;
   margin-top: -20px;
 }
+
+
+/* ---------------------main-----------------------*/
+
+
+.services_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: 2px solid #295135;
+  width: 192px;
+  height: 53.6px;
+  color: #295135;
+  margin: 50px auto 0;
+}
+
+.services_button .text {
+  letter-spacing: 0.02em;
+  font-size: 17.6px;
+}
+
+/* welcome */
+
+.welcome .major {
+  padding-top: 220px;
+  font-size: 80px;
+  white-space: nowrap;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.main .welcome {
+  margin: 0 auto;
+  max-width: 1920px;
+  height: 720px;
+  background-image: url("/web-programming/site/images/lnd_welc.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.services_button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 192px;
+  height: 53.6px;
+  color: white;
+  margin: 56px auto 0;
+    background-color: var(--color-brown);
+}
+
+.services_button1 .text1 {
+  letter-spacing: 0.02em;
+  font-size: 17.6px;
+  font-weight: 500;
+}
+
+/* choose */
+
+.main .choose .yoga, .main .choose .certified, .main .choose .creativity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-gap: 36px;
+}
+
+.main .choose .all {
+  display: flex;
+  justify-content: center;
+  grid-gap: 150px;
+  margin-top: 70px;
+}
+
+.main .choose .minor {
+  display: flex;
+  width: 350px;
+  justify-content: center;
+  text-align: center;
+}
+
+.main .maj2 {
+  display: flex;
+  justify-content: center;
+  color: var(--color-brown);
+  font-size: 24px;
+}
+
+.main .choose .icon {
+  display: flex;
+  justify-content: center;
+}
+
+.main .welcome .major, .main .choose .major {
+  text-align: center;
+}
+
+.main .welcome .minor {
+  font-size: 24px;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.main .choose .major {
+  margin-top: 56px;
+  font-size: 26px;
+}
+
+.main .choose .certified .icon {
+  height: 144px;
+}
+
+.choose .minor, .services .minor {
+  line-height: 1.6em;
+}
+
+.choose .creativity .minor {
+  width: 360px;
+}
+/* services */
+
+.main .services {
+  background: var(--color-light);
+  margin-top: 56px;
+  height: 896px;
+}
+
+.main .services .yoga, .main .services .certified, .main .services .creativity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-gap: 36px;
+}
+
+.main .services .all {
+  display: flex;
+  justify-content: center;
+  grid-gap: 150px;
+}
+
+.main .services .minor {
+  display: flex;
+  width: 330px;
+  justify-content: center;
+  text-align: center;
+}
+
+.main .services .maj2 {
+  display: flex;
+  justify-content: center;
+}
+
+.main .services .icon {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.main .services .major {
+  text-align: center;
+  padding-top: 56px;
+  padding-bottom: 70px;
+  font-size: 26px;
+}
+
+.main .services .price {
+  display: flex;
+  justify-content: center;
+}
+
+
+.main .services .price {
+  color: var(--color-brown);
+  font-size: 24px;
+}
+
+.services .certified .minor {
+  width: 360px;
+}
+
+.services .creativity .minor {
+  width: 330px;
+}
+
+/* about us */
+
+.main .about {
+  height: 500px;
+}
+
+.main .about .major {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-size: 26px;
+}
+
+.main .about .first_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-gap: 14.5px;
+  margin-top: -100px;
+}
+
+.main .about .second_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-gap: 18px;
+  line-height: 1.6em;
+}
+
+.main .about .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-gap: 28px;
+  width: 870px;
+  /*padding-left: 20px;*/
+}
+
+.main .about .name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main .about .degree {
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+}
+
+.choose, .services, .about {
+  font-size: 20px;
+}
+
+.main .about .all {
+  display: flex;
+  justify-content: center;
+  grid-gap: 150px;
+}
+
+.main .about .person {
+  display: flex;
+  margin-top: -72px;
+  padding-right: 115px;
+}
+/* ---------------------footer-----------------------*/
+
+.footer .container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1920px;
+  background: var(--color-green);
+  height: 230px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background: var(--color-green);
+}
+
+.footer .logo {
+  margin-top: 28px;
+}
+
+.footer .text-logo {
+  margin-left: -140px;
+  color: white;
+  letter-spacing: 0.045em;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.footer .logo::after {
+  content: '';
+  background-color: white;
+  height: 2px;
+  display: block;
+  margin-top:20px;
+  width: 223px;
+}
+
+.footer .soc-networks {
+  display: flex;
+  grid-gap :18px;
+  margin-top: 34px;
+  justify-content: center ;
+}
+
+.footer .chapters {
+  display: flex;
+  grid-gap : 12px;
+  margin-left: 400px;
+  flex-direction: column;
+}
+
+.footer .contacts {
+  display: flex;
+  grid-gap : 7.5px;
+  margin-left: 200px;
+  margin-top: 11px;
+  flex-direction: column;
+}
+
+.footer .con-loc {
+  display: flex;
+  grid-gap : 13px;
+}
+
+.footer .con-phone {
+  margin-left: 2px;
+  display: flex;
+  grid-gap : 12px;
+}
+
+.footer .con-mail {
+  margin-left: 2px;
+  display: flex;
+  grid-gap : 12px;
+}
+
+.footer .full-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer .logo-and-soc {
+  display: flex;
+  flex-direction: column;
+  margin-left: -93px;
+  margin-bottom: 25px;
+}
+
+.footer .head-ch {
+  font-size: 24px;
+  margin-bottom: 15px;
+  margin-top: 9px;
+}
+
+.footer .head-con {
+  font-size: 24px;
+  margin-bottom: 19px;
+  margin-top: 3px;
+}
+
+
