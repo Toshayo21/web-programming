@@ -242,25 +242,3 @@ a {
 }
 
 
-button {
-  background-color: var(--color-green);
-  height: 90px;
-  border: 0;
-  padding: 0;
-  font-size: 16px;
-  font-family: var(--font-montserrat);
-  white-space: nowrap;
-  color: white;
-}
-
-button:hover {
-  color: black;
-  transition: 0.05s;
-}
-
-.logo:hover {
-    filter: sepia(1) hue-rotate(80deg) saturate(20);
-}
-.logo:hover + .logo-text {
-    filter: sepia(1) hue-rotate(80deg) saturate(20);
-}
