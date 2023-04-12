@@ -291,5 +291,40 @@ a {
 
 
 
+button {
+  background-color: var(--color-green);
+  height: 90px;
+  border: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: var(--font-montserrat);
+  white-space: nowrap;
+  color: white;
+}
 
+button:hover {
+  color: rgb(186, 155, 252);
+  transition: 0.05s;
+}
+
+.button:hover {
+  color: rgb(186, 155, 252);
+  transition: 0.05s;
+}
+
+
+.backlight:hover {
+    filter: invert(31%) sepia(46%) saturate(4307%) hue-rotate(213deg) brightness(108%) contrast(101%);
+}
+.backlight:hover + .logo-text {
+    filter: invert(31%) sepia(46%) saturate(4307%) hue-rotate(213deg) brightness(108%) contrast(101%);
+}
+
+.logo-text:hover {
+    filter: invert(31%) sepia(46%) saturate(4307%) hue-rotate(213deg) brightness(108%) contrast(101%);
+}
+
+.first:hover + .second {
+    filter: invert(31%) sepia(46%) saturate(4307%) hue-rotate(213deg) brightness(108%) contrast(101%);
+}
 
