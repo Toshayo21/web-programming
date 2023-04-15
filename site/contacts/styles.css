@@ -311,8 +311,3 @@ button:hover {
   filter: invert(80%) sepia(13%) saturate(1071%) hue-rotate(345deg) brightness(95%) contrast(86%);
   transition: 0.3s;
 }
-
-@media screen and (max-width: 1470px) {
-  body {
-    font-size: 1px;
-  }
