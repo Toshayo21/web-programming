@@ -600,3 +600,21 @@ button:hover {
     padding-right: 40px;
   }
 }
+
+@media (max-width: 720px) {
+  .main .choose .all {
+    grid-gap: 75px;
+  }
+
+  .choose .all .creativity {
+    margin-top: 0;
+  }
+
+  .main .services .all {
+    grid-gap: 75px;
+  }
+
+  .services .all .creativity {
+    margin-top: 0;
+  }
+}
