@@ -118,6 +118,7 @@ a {
   margin-top: 30px;
   margin-bottom: 52px;
   font-size: 18px;
+  margin-left: 20px;
 }
 
 .services_button .text {
@@ -130,13 +131,12 @@ a {
 }
 
 .main .about-mn {
-  display: flex;
   font-size: 56px;
   font-weight: 600;
   justify-content: center;
   white-space: nowrap;
   margin-bottom: 24px;
-  margin-right: 199px;
+  padding-left: 16px;
 }
 
 .main .major-text {
@@ -162,7 +162,7 @@ a {
   justify-content: center;
   flex-direction: column;
   font-size: 20px;
-  width: 1363px;
+  width: 1403px;
 }
 
 .main .all {
@@ -173,7 +173,7 @@ a {
 .main .img-person {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .main .about {
@@ -185,6 +185,11 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.tx {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* ---------------------footer-----------------------*/
@@ -328,3 +333,81 @@ button:hover {
     filter: invert(31%) sepia(46%) saturate(4307%) hue-rotate(213deg) brightness(108%) contrast(101%);
 }
 
+
+
+@media (max-width: 1470px) {
+  .menu .soc-networks {
+    margin-left: 40px;
+  }
+
+  .menu .pages {
+    grid-gap :30px;
+    margin-left: 40px;
+  }
+
+  .menu .location-icon {
+    margin-left: 40px;
+    margin-top: -35px;
+  }
+
+  .menu .phone-icon {
+    margin-left: 40px;
+    margin-top: -35px;
+  }
+
+  .footer .chapters {
+    display: flex;
+    grid-gap : 12px;
+    margin-left: 215px;
+    flex-direction: column;
+}
+
+  .footer .contacts {
+    display: flex;
+    grid-gap : 7.5px;
+    margin-left: 205px;
+    margin-top: 11px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1320px) {
+  .menu .soc-networks, .menu .pages, .menu .location-icon, .menu .location-text, .menu .phone-icon, .menu .phone-text {
+    display: none;
+  }
+  .main .img-person {
+    display: none;
+  }
+
+  .main .all-text1 {
+    width: auto;
+    margin: 0;
+  }
+
+  .tx {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .main .about-mn {
+    padding-left: 20px;
+  }
+
+  .services_button1 {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 720px) {
+  .main .about-mn {
+    font-size: 38px;
+  }
+
+  .tx {
+    font-size: 16px;
+  }
+
+  .main .major-text {
+  font-size: 26px;
+  }
+}
