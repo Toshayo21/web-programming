@@ -138,6 +138,7 @@ a {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  flex-wrap: wrap;
 }
 
 .main .content .contacts {
@@ -310,4 +311,124 @@ button:hover {
 .bl:hover {
   filter: invert(80%) sepia(13%) saturate(1071%) hue-rotate(345deg) brightness(95%) contrast(86%);
   transition: 0.3s;
+}
+
+
+/*@media (max-width: 1300px) {*/
+/*  .menu .soc-networks, .menu .location-icon, .menu .location-text, .menu .phone-icon, .menu .phone-text {*/
+/*    display: none;*/
+/*  }*/
+
+/*  .menu .logo {*/
+/*    position: absolute;*/
+/*    left: 40px;*/
+/*    margin-top: 8px;*/
+/*  }*/
+
+/*  .menu .logo-text {*/
+/*    position: absolute;*/
+/*    left: 110px;*/
+/*  }*/
+
+/*  .menu .pages {*/
+/*    padding-top: 8px;*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    width: 350px;*/
+/*    background-color: blueviolet;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    grid-gap: 15px;*/
+/*  }*/
+/*}*/
+
+@media (max-width: 1470px) {
+  .menu .soc-networks {
+    margin-left: 40px;
+  }
+
+  .menu .pages {
+    grid-gap :30px;
+    margin-left: 40px;
+  }
+
+  .menu .location-icon {
+    margin-left: 40px;
+    margin-top: -35px;
+  }
+
+  .menu .phone-icon {
+    margin-left: 40px;
+    margin-top: -35px;
+  }
+
+  .footer .chapters {
+    display: flex;
+    grid-gap : 12px;
+    margin-left: 215px;
+    flex-direction: column;
+}
+
+  .footer .contacts {
+    display: flex;
+    grid-gap : 7.5px;
+    margin-left: 205px;
+    margin-top: 11px;
+    flex-direction: column;
+  }
+
+  .main .content .contacts {
+    margin-right: 250px;
+    width: 265px;
+  }
+  .main .content .address {
+    margin-right: 250px;
+    width: 235px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .menu .soc-networks, .menu .pages, .menu .location-icon, .menu .location-text, .menu .phone-icon, .menu .phone-text {
+    display: none;
+  }
+
+  .main .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main .content .contacts {
+    margin-right: 0;
+  }
+
+  .main .content .address {
+    margin-right: 0;
+    margin-top: 40px;
+  }
+
+  .main .content .soc {
+    margin-right: 0;
+    margin-top: 40px;
+  }
+
+  .main .con-phone {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main .con-mail {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main .con-loc {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main .ph-mail {
+    grid-gap: 20px;
+  }
 }
