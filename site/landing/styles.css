@@ -604,6 +604,7 @@ button:hover {
 @media (max-width: 720px) {
   .main .choose .all {
     grid-gap: 75px;
+    flex-direction: row;
   }
 
   .choose .all .creativity {
@@ -612,6 +613,7 @@ button:hover {
 
   .main .services .all {
     grid-gap: 75px;
+    flex-direction: row;
   }
 
   .services .all .creativity {
