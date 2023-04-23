@@ -18,7 +18,6 @@ body {
 .menu .container {
   display: flex;
   margin: 0 auto;
-  /*max-width: 1920px;*/
   background: var(--color-green);
   height: 118.4px;
   color: white;
@@ -195,7 +194,7 @@ a {
 .footer .contacts {
   display: flex;
   grid-gap : 7.5px;
-  margin-left: 200px;
+  margin-left: 210px;
   margin-top: 11px;
   flex-direction: column;
 }
@@ -276,4 +275,54 @@ button:hover {
 
 .first:hover + .second {
     filter: invert(31%) sepia(46%) saturate(4307%) hue-rotate(213deg) brightness(108%) contrast(101%);
+}
+
+.but:hover {
+  color: rgb(227, 181, 137);
+  transition: 0.1s;
+}
+
+
+/* ------------------------------------------media------------------------------------------ */
+
+@media (max-width: 1470px) {
+  .menu .soc-networks {
+    margin-left: 40px;
+  }
+
+  .menu .pages {
+    grid-gap :30px;
+    margin-left: 40px;
+  }
+
+  .menu .location-icon {
+    margin-left: 40px;
+    margin-top: -35px;
+  }
+
+  .menu .phone-icon {
+    margin-left: 40px;
+    margin-top: -35px;
+  }
+
+  .footer .chapters {
+    display: flex;
+    grid-gap : 12px;
+    margin-left: 215px;
+    flex-direction: column;
+}
+
+  .footer .contacts {
+    display: flex;
+    grid-gap : 7.5px;
+    margin-left: 205px;
+    margin-top: 11px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1300px) {
+  .menu .soc-networks, .menu .pages, .menu .location-icon, .menu .location-text, .menu .phone-icon, .menu .phone-text {
+    display: none;
+  }
 }
