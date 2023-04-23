@@ -99,6 +99,11 @@ a {
   margin: 50px auto 0;
 }
 
+.services .line-b {
+  height: 64px;
+  background-color: var(--color-light);
+}
+
 .services_button .text {
   letter-spacing: 0.02em;
   font-size: 17.6px;
@@ -109,7 +114,7 @@ a {
 .welcome .major {
   padding-top: 220px;
   font-size: 80px;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
   margin-bottom: 20px;
   letter-spacing: 2px;
 }
@@ -157,6 +162,7 @@ a {
   justify-content: center;
   grid-gap: 150px;
   margin-top: 70px;
+  flex-wrap: wrap;
 }
 
 .main .choose .minor {
@@ -210,7 +216,6 @@ a {
 .main .services {
   background: var(--color-light);
   margin-top: 56px;
-  height: 896px;
 }
 
 .main .services .yoga, .main .services .certified, .main .services .creativity {
@@ -224,6 +229,7 @@ a {
   display: flex;
   justify-content: center;
   grid-gap: 150px;
+  flex-wrap: wrap;
 }
 
 .main .services .minor {
@@ -274,13 +280,9 @@ a {
 
 /* about us */
 
-.main .about {
-  height: 500px;
-}
-
 .main .about .major {
   text-align: center;
-  padding-top: 70px;
+  padding-top: 56px;
   padding-bottom: 70px;
   font-size: 26px;
 }
@@ -299,6 +301,7 @@ a {
   justify-content: center;
   grid-gap: 18px;
   line-height: 1.6em;
+  padding-left: 40px;
 }
 
 .main .about .text {
@@ -313,6 +316,7 @@ a {
 .main .about .name {
   font-weight: bold;
   font-size: 20px;
+  padding-left: 40px;
 }
 
 .main .about .degree {
@@ -320,6 +324,7 @@ a {
   font-size: 22px;
   font-weight: 600;
   color: black;
+  padding-left: 40px;
 }
 
 .choose, .services, .about {
@@ -334,7 +339,7 @@ a {
 
 .main .about .person {
   display: flex;
-  margin-top: -72px;
+  margin-top: -57px;
   padding-right: 115px;
 }
 /* ---------------------footer-----------------------*/
@@ -474,4 +479,124 @@ button:hover {
 
 .first:hover + .second {
     filter: invert(31%) sepia(46%) saturate(4307%) hue-rotate(213deg) brightness(108%) contrast(101%);
+}
+
+
+
+@media (max-width: 1470px) {
+  .menu .soc-networks {
+    margin-left: 40px;
+  }
+
+  .menu .pages {
+    grid-gap :30px;
+    margin-left: 40px;
+  }
+
+  .menu .location-icon {
+    margin-left: 40px;
+    margin-top: -35px;
+  }
+
+  .menu .phone-icon {
+    margin-left: 40px;
+    margin-top: -35px;
+  }
+
+  .footer .chapters {
+    display: flex;
+    grid-gap : 12px;
+    margin-left: 215px;
+    flex-direction: column;
+}
+
+  .footer .contacts {
+    display: flex;
+    grid-gap : 7.5px;
+    margin-left: 205px;
+    margin-top: 11px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1300px) {
+  .menu .soc-networks, .menu .pages, .menu .location-icon, .menu .location-text, .menu .phone-icon, .menu .phone-text {
+    display: none;
+  }
+
+}
+
+@media (max-width: 1377px) {
+  .main .choose .all {
+    grid-gap: 75px;
+  }
+
+  .main .services .all {
+    grid-gap: 75px;
+  }
+}
+
+@media (max-width: 1227px) {
+  .main .choose .all {
+    grid-gap: 150px;
+  }
+  .choose .all .creativity {
+    margin-top: -70px;
+  }
+
+  .main .services .all {
+    grid-gap: 150px;
+  }
+  .services .all .creativity {
+    margin-top: -70px;
+  }
+
+  .main .about .person {
+    display: none;
+  }
+}
+
+@media (max-width: 917px) {
+  .main .choose .all {
+    grid-gap: 75px;
+  }
+
+  .choose .all .creativity {
+    margin-top: 0;
+  }
+
+  .main .services .all {
+    grid-gap: 75px;
+  }
+
+  .services .all .creativity {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1286px) {
+  .main .about .name {
+    padding-top: 32px;
+  }
+}
+
+@media (max-width: 1227px) {
+  .main .about .name {
+    padding-top: 86px;
+    margin: 0;
+  }
+
+  .main .about .all {
+    display: block;
+  }
+
+  .main .about .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    grid-gap: 28px;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-right: 40px;
+  }
 }
