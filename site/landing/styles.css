@@ -613,7 +613,7 @@ button:hover {
 
   .main .services .all {
     grid-gap: 75px;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .services .all .creativity {
