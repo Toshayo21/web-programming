@@ -314,35 +314,6 @@ button:hover {
 }
 
 
-/*@media (max-width: 1300px) {*/
-/*  .menu .soc-networks, .menu .location-icon, .menu .location-text, .menu .phone-icon, .menu .phone-text {*/
-/*    display: none;*/
-/*  }*/
-
-/*  .menu .logo {*/
-/*    position: absolute;*/
-/*    left: 40px;*/
-/*    margin-top: 8px;*/
-/*  }*/
-
-/*  .menu .logo-text {*/
-/*    position: absolute;*/
-/*    left: 110px;*/
-/*  }*/
-
-/*  .menu .pages {*/
-/*    padding-top: 8px;*/
-/*    position: absolute;*/
-/*    right: 0;*/
-/*    top: 0;*/
-/*    width: 350px;*/
-/*    background-color: blueviolet;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    grid-gap: 15px;*/
-/*  }*/
-/*}*/
-
 @media (max-width: 1470px) {
   .menu .soc-networks {
     margin-left: 40px;
@@ -388,7 +359,7 @@ button:hover {
   }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1350px) {
   .menu .soc-networks, .menu .pages, .menu .location-icon, .menu .location-text, .menu .phone-icon, .menu .phone-text {
     display: none;
   }
@@ -430,5 +401,59 @@ button:hover {
 
   .main .ph-mail {
     grid-gap: 20px;
+  }
+
+  .footer .logo::after {
+    display: none;
+  }
+
+  .footer .container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1920px;
+    height: 360px;
+    color: white;
+    align-items: normal;
+    justify-content: normal;
+  }
+
+  .footer .logo {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 38px;
+  }
+
+  .footer .logo-text {
+    position: absolute;
+    margin-left: 255px;
+    margin-top: 34px;
+  }
+
+  .footer .two {
+    display: flex;
+    margin-top: 35px;
+  }
+
+  .footer .logo-and-soc {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    margin-bottom: 25px;
+    justify-content: space-between;
+  }
+
+  .footer .soc-networks {
+    margin-right: 50px;
+    margin-top: 51px;
+  }
+
+  .footer .chapters {
+    margin-left: 30px;
+  }
+
+  .footer .contacts {
+    margin-top: 6px;
+    margin-right: 48px;
+    margin-left: 30px;
   }
 }
