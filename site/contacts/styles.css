@@ -200,7 +200,7 @@ a {
   display: flex;
   grid-gap :18px;
   margin-top: 34px;
-  justify-content: center ;
+  justify-content: center;
 }
 
 .footer .chapters {
@@ -259,7 +259,11 @@ a {
   margin-top: 3px;
 }
 
-
+.footer .two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 button {
   background-color: var(--color-green);
@@ -313,6 +317,35 @@ button:hover {
   transition: 0.3s;
 }
 
+
+/*@media (max-width: 1300px) {*/
+/*  .menu .soc-networks, .menu .location-icon, .menu .location-text, .menu .phone-icon, .menu .phone-text {*/
+/*    display: none;*/
+/*  }*/
+
+/*  .menu .logo {*/
+/*    position: absolute;*/
+/*    left: 40px;*/
+/*    margin-top: 8px;*/
+/*  }*/
+
+/*  .menu .logo-text {*/
+/*    position: absolute;*/
+/*    left: 110px;*/
+/*  }*/
+
+/*  .menu .pages {*/
+/*    padding-top: 8px;*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    width: 350px;*/
+/*    background-color: blueviolet;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    grid-gap: 15px;*/
+/*  }*/
+/*}*/
 
 @media (max-width: 1470px) {
   .menu .soc-networks {
@@ -457,7 +490,6 @@ button:hover {
     margin-left: 30px;
   }
 }
-
 
 @media (max-width: 768px) {
   .footer .head-ch, .footer .head-con {
