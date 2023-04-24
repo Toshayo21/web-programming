@@ -457,3 +457,24 @@ button:hover {
     margin-left: 30px;
   }
 }
+
+
+@media (max-width: 768px) {
+  .footer .head-ch, .footer .head-con {
+    font-size: 20px;
+  }
+  .footer .con-loc, .footer .con-phone, .footer .con-mail {
+    font-size: 12px;
+  }
+  .footer .button {
+    font-size: 12px;
+  }
+
+  .footer .contacts {
+    grid-gap : 4px;
+  }
+
+  .footer .head-con {
+    margin-bottom: 23px;
+  }
+}
