@@ -138,7 +138,6 @@ a {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  flex-wrap: wrap;
 }
 
 .main .content .contacts {
@@ -162,7 +161,6 @@ a {
 .footer .container {
   display: flex;
   margin: 0 auto;
-  max-width: 1920px;
   background: var(--color-green);
   height: 230px;
   color: white;
@@ -443,7 +441,6 @@ button:hover {
   .footer .container {
     display: block;
     margin: 0 auto;
-    max-width: 1920px;
     height: 360px;
     color: white;
     align-items: normal;
@@ -492,6 +489,12 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+  .main .our_services {
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 37px;
+  }
+
   .footer .head-ch, .footer .head-con {
     font-size: 20px;
   }
@@ -508,5 +511,9 @@ button:hover {
 
   .footer .head-con {
     margin-bottom: 23px;
+  }
+
+  .footer .container {
+    height: 310px;
   }
 }
