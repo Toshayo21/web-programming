@@ -627,5 +627,6 @@ button:hover {
   }
   .choose .creativity .minor, .choose .yoga .minor, .choose .certified .minor, .services .creativity .minor, .services .yoga .minor, .services .certified .minor  {
     width: 600px;
+    font-size: 50px;
   }
 }
