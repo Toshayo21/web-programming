@@ -846,32 +846,32 @@ button:hover {
   }
 
   .services_button .text {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .services_button {
-    border-radius: 20px;
-    max-width: 250px;
-    height: 70px;
+    border-radius: 25px;
+    max-width: 300px;
+    height: 90px;
   }
 
   .services_button1 {
-    border-radius: 10px;
-    max-width: 250px;
-    height: 70px;
+    border-radius: 15px;
+    max-width: 300px;
+    height: 90px;
   }
 
   .services_button1 .text1 {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .welcome .major {
-    padding-top: 170px;
+    padding-top: 150px;
     font-size: 100px;
   }
 
   .main .choose .minor {
-    font-size: 50px;
+    font-size: 46px;
     max-width: 750px;
     padding-right: 20px;
     padding-left: 20px;
@@ -882,6 +882,42 @@ button:hover {
     max-width: 750px;
     padding-right: 20px;
     padding-left: 20px;
+  }
+
+  .main .maj2 {
+    font-size: 50px;
+  }
+
+  .main .services .price {
+    font-size: 50px;
+  }
+
+  .main .choose .major {
+    font-size: 50px;
+  }
+
+  .main .services .major {
+    font-size: 50px;
+  }
+
+  .main .about .major {
+    font-size: 50px;
+  }
+
+  .main .about .name {
+    font-size: 46px;
+    padding-left: 20px;
+  }
+
+  .main .about .degree {
+    font-size: 48px;
+    padding-left: 20px;
+  }
+
+  .main .about .second_block {
+    font-size: 46px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
