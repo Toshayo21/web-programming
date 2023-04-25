@@ -607,7 +607,22 @@ button:hover {
     height: 70px;
   }
 
+  .footer .soc-networks img {
+    width: 80px !important;
+    height: 80px !important;
+  }
 
+  .footer .soc-networks {
+    grid-gap: 40px;
+  }
+
+  .footer .two {
+    justify-content: normal;
+  }
+
+  .footer .contacts {
+    padding-left: 100px;
+  }
 }
 
 @media (max-width: 720px) {
@@ -646,5 +661,22 @@ button:hover {
 
   .footer .container {
     height: 310px;
+  }
+
+    .footer .soc-networks img {
+    width: 25px !important;
+    height: 25px !important;
+  }
+
+  .footer .soc-networks {
+    grid-gap: 15px;
+  }
+
+  .footer .two {
+    justify-content: space-between;
+  }
+
+  .footer .contacts {
+    padding-left: 0;
   }
 }
