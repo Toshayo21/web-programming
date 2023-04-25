@@ -235,7 +235,7 @@ a {
   display: flex;
   grid-gap :18px;
   margin-top: 34px;
-  justify-content: center ;
+  justify-content: center;
 }
 
 .footer .chapters {
@@ -294,7 +294,11 @@ a {
   margin-top: 3px;
 }
 
-
+.footer .two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 button {
   background-color: var(--color-green);
@@ -371,7 +375,7 @@ button:hover {
   }
 }
 
-@media (max-width: 1320px) {
+@media (max-width: 1350px) {
   .menu .soc-networks, .menu .pages, .menu .location-icon, .menu .location-text, .menu .phone-icon, .menu .phone-text {
     display: none;
   }
@@ -396,6 +400,60 @@ button:hover {
   .services_button1 {
     margin-left: 20px;
   }
+
+    .footer .logo::after {
+    display: none;
+  }
+
+  .footer .container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1920px;
+    height: 360px;
+    color: white;
+    align-items: normal;
+    justify-content: normal;
+  }
+
+  .footer .logo {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 38px;
+  }
+
+  .footer .logo-text {
+    position: absolute;
+    margin-left: 255px;
+    margin-top: 34px;
+  }
+
+  .footer .two {
+    display: flex;
+    margin-top: 35px;
+  }
+
+  .footer .logo-and-soc {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    margin-bottom: 25px;
+    justify-content: space-between;
+  }
+
+  .footer .soc-networks {
+    margin-right: 50px;
+    margin-top: 51px;
+  }
+
+  .footer .chapters {
+    margin-left: 30px;
+  }
+
+  .footer .contacts {
+    margin-top: 6px;
+    margin-right: 48px;
+    margin-left: 30px;
+  }
 }
 
 @media (max-width: 720px) {
@@ -408,6 +466,31 @@ button:hover {
   }
 
   .main .major-text {
-  font-size: 26px;
+    font-size: 26px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .footer .head-ch, .footer .head-con {
+    font-size: 20px;
+  }
+  .footer .con-loc, .footer .con-phone, .footer .con-mail {
+    font-size: 12px;
+  }
+  .footer .button {
+    font-size: 12px;
+  }
+
+  .footer .contacts {
+    grid-gap : 4px;
+  }
+
+  .footer .head-con {
+    margin-bottom: 23px;
+  }
+
+  .footer .container {
+    height: 310px;
   }
 }
