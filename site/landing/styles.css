@@ -578,7 +578,7 @@ button:hover {
     display: none;
   }
 
-    .ph-menu {
+  .ph-menu {
     display: block;
     position: absolute;
     right: 110px;
@@ -810,10 +810,6 @@ button:hover {
     margin: 0;
   }
 
-  .main .about .all {
-    display: block;
-  }
-
   .main .about .text {
     display: flex;
     flex-direction: column;
@@ -825,7 +821,7 @@ button:hover {
   }
 }
 
-@media (max-width: 980px) {
+@media screen and (max-width: 980px) {
   .main .choose .all {
     grid-gap: 75px;
     flex-direction: column;
@@ -845,14 +841,41 @@ button:hover {
   .services .all .creativity {
     margin-top: 0;
   }
-
-  .main .choose .minor {
-    max-width: 800px;
+  .main .welcome .minor {
     font-size: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
   }
 
+  .services_button .text {
+    font-size: 25px;
+  }
+
+  .services_button {
+    border-radius: 20px;
+    max-width: 250px;
+    height: 70px;
+  }
+
+  .services_button1 {
+    border-radius: 10px;
+    max-width: 250px;
+    height: 70px;
+  }
+
+  .services_button1 .text1 {
+    font-size: 25px;
+  }
+
+  .welcome .major {
+    padding-top: 170px;
+    font-size: 100px;
+  }
+
+  .main .choose .minor {
+    font-size: 50px;
+    max-width: 750px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 
 @media (max-width: 786px) {
