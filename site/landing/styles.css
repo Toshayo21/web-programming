@@ -823,7 +823,7 @@ button:hover {
 
 @media screen and (max-width: 980px) {
   .main .choose .all {
-    grid-gap: 75px;
+    grid-gap: 100px;
     flex-direction: column;
     align-items: center;
   }
@@ -833,7 +833,7 @@ button:hover {
   }
 
   .main .services .all {
-    grid-gap: 75px;
+    grid-gap: 130px;
     flex-direction: column;
     align-items: center;
   }
@@ -894,14 +894,19 @@ button:hover {
 
   .main .choose .major {
     font-size: 50px;
+    margin-top: 100px;
   }
 
   .main .services .major {
     font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 0;
   }
 
   .main .about .major {
     font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .main .about .name {
@@ -918,6 +923,31 @@ button:hover {
     font-size: 46px;
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .main .choose .all {
+    margin-top: 100px;
+  }
+
+  .main .services .all {
+    margin-top: 100px;
+  }
+
+  .services img {
+    width: 400px !important;
+    height: 400px !important;
+  }
+
+  .choose img {
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  .certified {
+    margin-top: -20px;
+  }
+  .certified .icon {
+    margin-bottom: 120px;
   }
 }
 
