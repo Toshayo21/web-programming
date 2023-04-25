@@ -594,17 +594,17 @@ button:hover {
 
 @media screen and (max-width: 980px) {
   .services_button1 .text, .services_button .text {
-    font-size: 30px;
+    font-size: 25px;
   }
   .services_button1 {
     border-radius: 20px;
-    width: 300px;
-    height: 80px;
+    width: 250px;
+    height: 70px;
   }
   .services_button {
     border-radius: 20px;
-    width: 300px;
-    height: 80px;
+    width: 250px;
+    height: 70px;
   }
 }
 
