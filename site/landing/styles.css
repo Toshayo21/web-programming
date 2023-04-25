@@ -949,6 +949,11 @@ button:hover {
   .certified .icon {
     margin-bottom: 120px;
   }
+
+  .footer .soc-networks img {
+    width: 40px !important;
+    height: 40px !important;
+  }
 }
 
 @media (max-width: 786px) {
