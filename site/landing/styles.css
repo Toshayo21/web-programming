@@ -845,9 +845,15 @@ button:hover {
   .services .all .creativity {
     margin-top: 0;
   }
+
+  .main .choose .minor {
+    max-width: 800px;
+    font-size: 30px;
+  }
+
 }
 
-@media (max-width: 768px) {
+@media (max-width: 786px) {
   .footer .head-ch, .footer .head-con {
     font-size: 20px;
   }
