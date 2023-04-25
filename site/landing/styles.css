@@ -951,12 +951,12 @@ button:hover {
   }
 
   .footer .soc-networks img {
-    width: 50px !important;
-    height: 50px !important;
+    width: 80px !important;
+    height: 80px !important;
   }
 
   .footer .soc-networks {
-    grid-gap: 25px;
+    grid-gap: 40px;
   }
 }
 
