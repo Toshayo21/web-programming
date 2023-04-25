@@ -873,15 +873,15 @@ button:hover {
   .main .choose .minor {
     font-size: 46px;
     max-width: 750px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
   }
 
   .main .services .minor {
     font-size: 46px;
     max-width: 750px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
   }
 
   .main .maj2 {
@@ -906,18 +906,18 @@ button:hover {
 
   .main .about .name {
     font-size: 46px;
-    padding-left: 20px;
+    padding-left: 40px;
   }
 
   .main .about .degree {
     font-size: 48px;
-    padding-left: 20px;
+    padding-left: 40px;
   }
 
   .main .about .second_block {
     font-size: 46px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
