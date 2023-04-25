@@ -876,6 +876,13 @@ button:hover {
     padding-right: 20px;
     padding-left: 20px;
   }
+
+  .main .services .minor {
+    font-size: 46px;
+    max-width: 750px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 
 @media (max-width: 786px) {
