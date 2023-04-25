@@ -18,7 +18,6 @@ body {
 .menu .container {
   display: flex;
   margin: 0 auto;
-  /*max-width: 1920px;*/
   background: var(--color-green);
   height: 118.4px;
   color: white;
@@ -86,14 +85,14 @@ a {
 /* ---------------------main-----------------------*/
 
 .our_services {
-  margin-top: 50px;
+  padding-top: 50px;
+  margin: 0 auto 0;
   font-size: 80px;
   font-style: italic;
   text-align: center;
-  white-space: nowrap;
 }
 
-.main * {
+.but {
   color: black;
 }
 
@@ -316,34 +315,53 @@ button:hover {
 }
 
 
-/*@media (max-width: 1300px) {*/
-/*  .menu .soc-networks, .menu .location-icon, .menu .location-text, .menu .phone-icon, .menu .phone-text {*/
-/*    display: none;*/
-/*  }*/
+.main {
+  position: relative;
+}
 
-/*  .menu .logo {*/
-/*    position: absolute;*/
-/*    left: 40px;*/
-/*    margin-top: 8px;*/
-/*  }*/
+.burger {
+  display: none;
+}
 
-/*  .menu .logo-text {*/
-/*    position: absolute;*/
-/*    left: 110px;*/
-/*  }*/
+.ph-menu {
+  display: none;
+}
 
-/*  .menu .pages {*/
-/*    padding-top: 8px;*/
-/*    position: absolute;*/
-/*    right: 0;*/
-/*    top: 0;*/
-/*    width: 350px;*/
-/*    background-color: blueviolet;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    grid-gap: 15px;*/
-/*  }*/
-/*}*/
+.main .right-menu {
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  transform: translateY(-200%);
+  transition: all 0.5s ease-in-out;
+  border-radius: 0 0 20px 20px;
+  background-color: var(--color-brown);
+}
+
+.main .right-menu.active {
+  transform: translateY(0%);
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  padding: 65px 0 0;
+}
+
+.bm {
+  font-size: 20px;
+}
+
+.menu .main-logo {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
 
 @media (max-width: 1470px) {
   .menu .soc-networks {
@@ -393,6 +411,102 @@ button:hover {
 @media (max-width: 1350px) {
   .menu .soc-networks, .menu .pages, .menu .location-icon, .menu .location-text, .menu .phone-icon, .menu .phone-text {
     display: none;
+  }
+
+    .ph-menu {
+    display: block;
+    position: absolute;
+    right: 110px;
+    top: 45px;
+  }
+
+  .burger {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .burger .burgerbtn {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 30px;
+  }
+
+  .burger .burgerbtn::before, .burger .burgerbtn::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .burger .burgerbtn::before {
+    top: 0;
+    transform: translateY(25%);
+  }
+
+  .burger .burgerbtn::after {
+    top: calc(100% - 4px);
+    transform: translateY(-25%);
+  }
+
+  .burgerbtn.is-active .burger-line{
+    transform: scale(0);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .burgerbtn.is-active::before{
+    transform: translateY(-50%) rotate(45deg);
+    top: 50%;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .burgerbtn.is-active::after{
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .burger-line {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu .container {
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main .content .contacts {
+    margin-right: 0;
+  }
+
+  .menu .container {
+    padding-right: 30px;
+  }
+
+  .main .our_services {
+    width: 500px;
   }
 
   .main .content {
@@ -455,7 +569,7 @@ button:hover {
 
   .footer .logo-text {
     position: absolute;
-    margin-left: 255px;
+    margin-left: 254px;
     margin-top: 34px;
   }
 
@@ -488,13 +602,26 @@ button:hover {
   }
 }
 
-@media (max-width: 768px) {
-  .main .our_services {
-    font-weight: 100;
-    font-size: 30px;
-    line-height: 37px;
+@media screen and (max-width: 980px){
+  .footer .soc-networks img {
+    width: 80px !important;
+    height: 80px !important;
   }
 
+  .footer .soc-networks {
+    grid-gap: 40px;
+  }
+
+  .footer .two {
+    justify-content: normal;
+  }
+
+  .footer .contacts {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 768px) {
   .footer .head-ch, .footer .head-con {
     font-size: 20px;
   }
@@ -516,4 +643,22 @@ button:hover {
   .footer .container {
     height: 310px;
   }
+
+    .footer .soc-networks img {
+    width: 25px !important;
+    height: 25px !important;
+  }
+
+  .footer .soc-networks {
+    grid-gap: 15px;
+  }
+
+  .footer .two {
+    justify-content: space-between;
+  }
+
+  .footer .contacts {
+    padding-left: 0;
+  }
+
 }
