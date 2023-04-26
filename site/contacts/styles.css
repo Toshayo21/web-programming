@@ -724,12 +724,12 @@ button:hover {
     margin-left: 225px;
   }
 
-  .footer .soc-networks img {
-    width: 20px !important;
-    height: 20px !important;
-  }
+  /*.footer .soc-networks img {*/
+  /*  width: 20px !important;*/
+  /*  height: 20px !important;*/
+  /*}*/
 
   .footer .soc-networks {
-    margin-top: 45px;
+    margin-top: 40px;
   }
 }
