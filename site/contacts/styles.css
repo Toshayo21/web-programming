@@ -669,14 +669,27 @@ button:hover {
   }
 
   .main .content {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .main .head1, .main .head2, .main .head3 {
-    font-size: 10px;
+    font-size: 20px;
   }
 
-  .footer .contacts {
-    display: none;  
+  .main .head1 {
+    margin-left: 25px;
   }
+
+  .main .head2 {
+    margin-left: 25px;
+  }
+
+  .but {
+    margin-top: 2px;
+  }
+
+  .footer .button {
+    font-size: 7px;
+  }
+
 }
