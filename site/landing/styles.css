@@ -717,7 +717,7 @@ button:hover {
 
   .footer .logo-text {
     position: absolute;
-    margin-left: 255px;
+    margin-left: 254px;
     margin-top: 34px;
   }
 
@@ -871,15 +871,15 @@ button:hover {
   }
 
   .main .choose .minor {
-    font-size: 46px;
-    max-width: 750px;
+    font-size: 40px;
+    max-width: 100%;
     padding-right: 40px;
     padding-left: 40px;
   }
 
   .main .services .minor {
-    font-size: 46px;
-    max-width: 750px;
+    font-size: 40px;
+    max-width: 100%;
     padding-right: 40px;
     padding-left: 40px;
   }
@@ -910,7 +910,7 @@ button:hover {
   }
 
   .main .about .name {
-    font-size: 46px;
+    font-size: 40px;
     padding-left: 40px;
   }
 
@@ -920,7 +920,7 @@ button:hover {
   }
 
   .main .about .second_block {
-    font-size: 46px;
+    font-size: 42px;
     padding-left: 40px;
     padding-right: 40px;
   }
