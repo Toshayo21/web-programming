@@ -611,10 +611,15 @@ button:hover {
     width: 280px;
   }
 
+  .prices .price::after {
+    height: 0.1px;
+  }
+
   .services_button {
     border-radius: 15px;
     width: 170px;
     height: 53.6px;
+    border: 1px solid #295135;
   }
 
   .services_button .text {
