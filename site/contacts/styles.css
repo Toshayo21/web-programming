@@ -688,12 +688,29 @@ button:hover {
     margin-top: 2px;
   }
 
-  .footer .button {
-    font-size: 7px;
+  .footer .head-ch {
+    font-size: 12px;
   }
 
-  .footer .contacts img, .footer .con-phone img, .footer .con-mail img {
+  .footer .head-con {
+     font-size: 12px;
+    margin-bottom: 19px;
+  }
+
+  .footer .button {
+    font-size: 9px;
+  }
+
+  .footer .contacts {
+    grid-gap: 8px;
+  }
+
+  .footer .con-loc img, .footer .con-phone img, .footer .con-mail img {
     width: 10px !important;
     height: 10px !important;
+  }
+
+  .footer .con-loc, .footer .con-phone, .footer .con-mail {
+    grid-gap : 5px;
   }
 }
