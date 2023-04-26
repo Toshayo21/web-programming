@@ -967,6 +967,13 @@ button:hover {
     padding-left: 100px;
   }
 
+  .main .choose {
+    padding-bottom: 50px;
+  }
+
+  .services .line-b {
+    height: 120px;
+  }
 }
 
 @media (max-width: 786px) {
