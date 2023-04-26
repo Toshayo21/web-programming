@@ -720,7 +720,7 @@ button:hover {
   }
 
   .footer .logo-text {
-    font-size: 8px;
+    font-size: 12px;
     margin-left: 230px;
   }
 
@@ -739,6 +739,11 @@ button:hover {
   }
 
   .menu .logo-text {
-    font-size: 8px;
+    font-size: 12px;
   }
+
+  .ph-menu {
+    right: 100px;
+  }
+
 }
