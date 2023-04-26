@@ -713,4 +713,23 @@ button:hover {
   .footer .con-loc, .footer .con-phone, .footer .con-mail {
     grid-gap : 5px;
   }
+
+  .footer .full-logo img {
+    width: 48px !important;
+    height: 38px !important;
+  }
+
+  .footer .logo-text {
+    font-size: 8px;
+    margin-left: 225px;
+  }
+
+  .footer .soc-networks img {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .footer .soc-networks {
+    margin-top: 45px;
+  }
 }
