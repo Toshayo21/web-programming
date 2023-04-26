@@ -268,7 +268,7 @@ a {
   transform: translateY(-200%);
   transition: all 0.5s ease-in-out;
   border-radius: 0 0 20px 20px;
-  background-color: #9f6a38;
+  background-color: var(--color-brown);
 }
 
 .main .right-menu.active {
@@ -336,7 +336,7 @@ button:hover {
     display: flex;
     align-items: center;
     padding: 0 30px;
-  }
+}
 
 /* ------------------------------------------media------------------------------------------ */
 
@@ -538,5 +538,86 @@ button:hover {
 
   .footer .container {
     height: 310px;
+  }
+}
+
+@media screen and (max-width: 520px){
+  .our_services {
+    font-size: 40px;
+  }
+
+  .but {
+    margin-top: 2px;
+  }
+
+  .footer .head-ch {
+    font-size: 12px;
+  }
+
+  .footer .head-con {
+     font-size: 12px;
+    margin-bottom: 19px;
+  }
+
+  .footer .button {
+    font-size: 9px;
+  }
+
+  .footer .contacts {
+    grid-gap: 8px;
+  }
+
+  .footer .con-loc img, .footer .con-phone img, .footer .con-mail img {
+    width: 10px !important;
+    height: 10px !important;
+  }
+
+  .footer .con-loc, .footer .con-phone, .footer .con-mail {
+    grid-gap : 5px;
+  }
+
+  .footer .full-logo img {
+    width: 48px !important;
+    height: 38px !important;
+  }
+
+  .footer .logo-text {
+    font-size: 12px;
+    margin-left: 230px;
+  }
+
+  .footer .soc-networks {
+    margin-top: 42px;
+  }
+
+  .menu .main-logo img {
+    width: 48px !important;
+    height: 38px !important;
+  }
+
+  .menu .logo-text {
+    font-size: 12px;
+  }
+
+  .ph-menu {
+    right: 100px;
+  }
+
+  .prices .price {
+    font-size: 12px;
+  }
+
+  .prices .price {
+    width: 280px;
+  }
+
+  .services_button {
+    border-radius: 15px;
+    width: 170px;
+    height: 53.6px;
+  }
+
+  .services_button .text {
+    font-size: 14px;
   }
 }
