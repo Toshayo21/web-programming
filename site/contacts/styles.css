@@ -506,7 +506,7 @@ button:hover {
   }
 
   .main .our_services {
-    width: 500px;
+    width: 100%;
   }
 
   .main .content {
@@ -661,4 +661,22 @@ button:hover {
     padding-left: 0;
   }
 
+}
+
+@media screen and (max-width: 520px){
+  .our_services {
+    font-size: 40px;
+  }
+
+  .main .content {
+    font-size: 10px;
+  }
+
+  .main .head1, .main .head2, .main .head3 {
+    font-size: 10px;
+  }
+
+  .footer .contacts {
+    display: none;  
+  }
 }
