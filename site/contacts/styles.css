@@ -692,4 +692,8 @@ button:hover {
     font-size: 7px;
   }
 
+  .footer .contacts img, .footer .con-phone img, .footer .con-mail img {
+    width: 10px !important;
+    height: 10px !important;
+  }
 }
