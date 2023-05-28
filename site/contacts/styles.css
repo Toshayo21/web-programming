@@ -45,7 +45,7 @@ body {
   display: flex;
   grid-gap :18px;
   margin-top: 4px;
-  margin-left: 40px;
+  margin-left: 80px;
 }
 
 a {
@@ -725,7 +725,7 @@ button:hover {
   }
 
   .footer .soc-networks {
-    margin-top: 42px;
+    margin-top: 50px;
   }
 
   .menu .main-logo img {
@@ -733,12 +733,29 @@ button:hover {
     height: 38px !important;
   }
 
-  .menu .logo-text {
-    font-size: 12px;
-  }
-
   .ph-menu {
     right: 100px;
   }
 
+  .menu .main-logo img {
+    width: 72px !important;
+    height: 56px !important;
+  }
+
+  .menu .logo-text {
+    font-size: 16px;
+  }
+
+  .footer .full-logo img {
+    width: 72px !important;
+    height: 56px !important;
+  }
+
+  .footer .logo-text {
+    font-size: 16px;
+  }
+
+  .footer .text-logo {
+    margin-left: -116px;
+  }
 }
